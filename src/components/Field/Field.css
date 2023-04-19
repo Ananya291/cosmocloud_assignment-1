@@ -1,0 +1,45 @@
+.field_container {
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.field_container:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.field_container_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.field_container_editable_icons {
+    display: flex;
+    align-items: center;
+}
+
+.field_container_editable__switch_icon {
+    display: flex;
+    align-items: center;
+}
+
+.field_container_details {
+    display: flex;
+    padding-left: 15px;
+}
+
+.field_container_details_type {
+    margin-left: 20px;
+}
+
+.sub_fields_container {
+    border-left: 2px solid #E8E8E8;
+    margin-left: 20px;
+}
+
+.field_hr {
+    border: 2px solid #F0F0F0;
+}
